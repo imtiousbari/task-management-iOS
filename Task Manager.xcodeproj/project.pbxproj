@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		721512912AF381770007B1A1 /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 721512902AF381770007B1A1 /* CalenderView.swift */; };
 		771F30562AE28B7B005CCDBC /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F30552AE28B7B005CCDBC /* TasksView.swift */; };
 		772E554A2ADAAD850055C297 /* Task_ManagerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E55492ADAAD850055C297 /* Task_ManagerApp.swift */; };
 		772E554C2ADAAD850055C297 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 772E554B2ADAAD850055C297 /* ContentView.swift */; };
@@ -21,6 +22,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		721512902AF381770007B1A1 /* CalenderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
 		771F30552AE28B7B005CCDBC /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
 		772E55462ADAAD850055C297 /* Task Manager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Task Manager.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		772E55492ADAAD850055C297 /* Task_ManagerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task_ManagerApp.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				77AA20592ADBBBF80094D4C4 /* NewTask.swift */,
 				77AA20572ADBB1D20094D4C4 /* TaskItem.swift */,
 				77AA20552ADBAF490094D4C4 /* OffsetKey.swift */,
+				721512902AF381770007B1A1 /* CalenderView.swift */,
 				772E554D2ADAAD870055C297 /* Assets.xcassets */,
 				772E554F2ADAAD870055C297 /* Preview Content */,
 				771F30552AE28B7B005CCDBC /* TasksView.swift */,
@@ -166,6 +169,7 @@
 				772E55582ADAADEF0055C297 /* Task.swift in Sources */,
 				77AA205A2ADBBBF80094D4C4 /* NewTask.swift in Sources */,
 				772E554A2ADAAD850055C297 /* Task_ManagerApp.swift in Sources */,
+				721512912AF381770007B1A1 /* CalenderView.swift in Sources */,
 				77AA20582ADBB1D20094D4C4 /* TaskItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

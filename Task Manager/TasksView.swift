@@ -16,7 +16,6 @@ struct TasksView: View {
     @Query private var tasks: [Task]
     init(date: Binding<Date>) {
         self._date = date
-        
         let calendar = Calendar.current
         let startDate = calendar.startOfDay(for: date.wrappedValue)
         let endOfDate = calendar.date(byAdding: .day, value: 1, to: startDate)!
@@ -45,7 +44,7 @@ struct TasksView: View {
                     }
             }
         })
-        .padding(.top, 450)
+//        .padding(.top, 450)
         .overlay {
             if tasks.isEmpty {
                 VStack{
@@ -83,7 +82,7 @@ struct TasksView: View {
                             .foregroundColor(.gray)
                     }
                 }
-               
+                .padding(.top, 400)
             }
         }
     }
